@@ -7,5 +7,5 @@ class ApplicationController < ActionController::Base
 
   # Scrub sensitive parameters from your log
   # filter_parameter_logging :password
-  #all the general methods for the application goes here
+  #all hello the general methods for the application goes here
 end
