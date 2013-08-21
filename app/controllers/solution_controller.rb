@@ -7,6 +7,7 @@ class SolutionController < ApplicationController
   end
   def edit
     puts "creating skeleton"
+    puts "This change was made on branch"
   end
   def create
     puts "creating skeleton"
