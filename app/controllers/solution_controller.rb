@@ -1,5 +1,5 @@
 class SolutionController < ApplicationController
   def index
-    puts "do nothin!"
+    puts "do nothing else!"
   end
 end
