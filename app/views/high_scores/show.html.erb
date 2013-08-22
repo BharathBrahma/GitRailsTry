@@ -1,0 +1,18 @@
+<p>
+  <b>Game:</b>
+  <%=h @high_score.game %>
+</p>
+
+<p>
+  <b>Score:</b>
+  <%=h @high_score.score %>
+</p>
+
+<p>
+  <b>Playername:</b>
+  <%=h @high_score.playerName %>
+</p>
+
+
+<%= link_to 'Edit', edit_high_score_path(@high_score) %> |
+<%= link_to 'Back', high_scores_path %> | <%= link_to 'Show Listings', high_scores_path %>

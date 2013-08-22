@@ -1,0 +1,23 @@
+<h1>New high_score</h1>
+
+<% form_for(@high_score) do |f| %>
+  <%= f.error_messages %>
+
+  <p>
+    <%= f.label :game %><br />
+    <%= f.text_field :game %>
+  </p>
+  <p>
+    <%= f.label :score %><br />
+    <%= f.text_field :score %>
+  </p>
+  <p>
+    <%= f.label :playerName %><br />
+    <%= f.text_field :playerName %>
+  </p>
+  <p>
+    <%= f.submit 'Create' %>
+  </p>
+<% end %>
+
+<%= link_to 'Show Listing', high_scores_path %>
