@@ -1,0 +1,15 @@
+GEM
+  remote: http://rubygems.org/
+  remote: http://gems.github.com/
+  specs:
+    ansi (1.4.3)
+    ps (0.0.8)
+      ansi
+    rake (10.1.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  ps
+  rake
