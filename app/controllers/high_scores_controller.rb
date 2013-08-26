@@ -3,7 +3,7 @@ class HighScoresController < ApplicationController
   # GET /high_scores.xml
   def index
     @high_scores = HighScore.all
-
+    #All high scores from the database are collected in here in the index action
     respond_to do |format|
       format.html # index.html.erb
       format.xml  { render :xml => @high_scores }
